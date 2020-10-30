@@ -15,7 +15,10 @@ from freegames import square, vector
 import random
 
 
-food = vector(0, 0)
+firstX = randrange(-190, 190, 10)
+firstY = randrange(-190, 190, 10)
+print(firstX, firstY)
+food = vector(firstX, firstY)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
 
