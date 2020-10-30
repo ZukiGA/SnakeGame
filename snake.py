@@ -14,10 +14,14 @@ from random import randrange
 from freegames import square, vector
 import random
 
+#Te da un numero aleatorio para x y y
+#en el rango del tamanio de la pantalla 
+#con un paso de 10 y lo coloca en los
+#valores iniciales
+
 
 firstX = randrange(-190, 190, 10)
 firstY = randrange(-190, 190, 10)
-print(firstX, firstY)
 food = vector(firstX, firstY)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
