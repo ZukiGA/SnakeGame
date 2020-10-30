@@ -13,8 +13,8 @@ from turtle import *
 from random import randrange
 from freegames import square, vector
 
-firstX = random.randrange(-190, 190, 10)
-firstY = random.randrange(-190, 190, 10)
+firstX = randrange(-190, 190, 10)
+firstY = randrange(-190, 190, 10)
 print(firstX, firstY)
 food = vector(firstX, firstY)
 snake = [vector(10, 0)]
